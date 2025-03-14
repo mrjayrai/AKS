@@ -6,6 +6,7 @@ const WarehouseSchema= require('./models/WareHouse');
 const ProductSchema = require('./models/Product');
 const InventorySchema = require('./models/Inventory');
 const OrderSchema = require('./models/Order');
+const ShopSchema = require('./models/Shop');
 const UserRoutes = require('./routes/UserRoutes');
 const WareHouseRoutes = require('./routes/WareHouseRoutes');
 // UserSchema();
