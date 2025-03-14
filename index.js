@@ -4,7 +4,8 @@ const mongoose = require('./config/db');
 const UserSchema = require('./models/User');
 const WarehouseSchema= require('./models/WareHouse');
 const ProductSchema = require('./models/Product');
-const InventorySchema = require('./models/Inventory')
+const InventorySchema = require('./models/Inventory');
+const OrderSchema = require('./models/Order');
 const UserRoutes = require('./routes/UserRoutes');
 const WareHouseRoutes = require('./routes/WareHouseRoutes');
 // UserSchema();
